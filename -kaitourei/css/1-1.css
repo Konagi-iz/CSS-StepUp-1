@@ -1,0 +1,15 @@
+.btn {
+  display: block;
+  width: 200px;
+  background: #88c6e9;
+  padding-block: 10px;
+  margin-top: 100px;
+  border: 3px solid #000000;
+  border-radius: 9999px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.btn--purple {
+  background: #8668ff;
+}
