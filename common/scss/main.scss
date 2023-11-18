@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@use "_variable.scss" as *;
+@use "_destyle.scss";
+
+body {
+	color: $c-black;
+	font-family: $f-YuGothic;
+}
