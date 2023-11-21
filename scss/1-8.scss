@@ -1,4 +1,8 @@
 @charset "UTF-8";
 @use "../common/scss/_variable.scss" as *;
 
+.main {
+	height: 200vh;
+	background: linear-gradient(180deg, #fff 0%, #e5f9ff 100%);
+}
 // ここからスタイルを記述してください。

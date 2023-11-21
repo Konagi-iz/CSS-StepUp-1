@@ -1,0 +1,20 @@
+.container {
+  width: min(1000px, 100%);
+  margin-inline: auto;
+  margin-top: 60px;
+}
+
+.block-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+}
+.block-list .block-list__item {
+  width: 212.5px;
+  height: 212.5px;
+  background: #88c6e9;
+}
+.block-list .block-list__item--purple {
+  background: #8668ff;
+}

@@ -2,3 +2,23 @@
 @use "../common/scss/_variable.scss" as *;
 
 // ここからスタイルを記述してください。
+.container {
+	width: min(1000px, 100%);
+	margin-inline: auto;
+    margin-top: 60px;
+}
+
+.block-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	width: 100%;
+	.block-list__item {
+		width: 212.5px;
+		height: 212.5px;
+		background: $c-primary;
+		&--purple {
+			background: $c-secondary;
+		}
+	}
+}

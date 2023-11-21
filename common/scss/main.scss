@@ -3,6 +3,7 @@
 @use "_destyle.scss";
 
 body {
+	scroll-behavior: smooth;
 	color: $c-black;
 	font-family: $f-YuGothic;
 	line-height: 1.5;

@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  position: relative;
+  padding: 55px 120px;
+  border: 3px solid #88c6e9;
+  border-radius: 32px;
+}
+.card .card__ttl {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  transform: translateY(-50%);
+}
+.card .card__txt {
+  width: 350px;
+  font-size: 14px;
+  line-height: 2;
+}
+.card .card__btn {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 120px;
+  padding-block: 6px;
+  background: #000000;
+  border-radius: 999px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  transform: translateY(50%);
+}

@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 75px;
+  width: 210px;
+  height: 340px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+}
+
+.menu {
+  position: relative;
+  width: 25px;
+  height: 20px;
+}
+.menu .menu__line {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+}
+.menu .menu__line:nth-child(2) {
+  top: 9px;
+}
+.menu .menu__line:nth-child(3) {
+  top: 18px;
+}
+.menu--active .menu__line {
+  top: 9px;
+  transform: rotate(45deg);
+}
+.menu--active .menu__line:nth-child(2) {
+  top: 9px;
+  transform: rotate(-45deg);
+}
